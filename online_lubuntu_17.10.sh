@@ -41,6 +41,6 @@ wine <HAGA_QUE>
 
 	#SOFTWARES PARA PROGRAMAÇÃO:
 
-apt-get install -y idle-python2.7 idle3
+apt-get install -y idle idle3 arduino gedit geany
 
 
