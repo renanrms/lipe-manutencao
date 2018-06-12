@@ -1,4 +1,4 @@
-# lipe-manutencao
+# LIpE - manutenção
 Repositório para scripts de preparação dos computadores do Laboratório de Informática para a Educação (LIpE / UFRJ).
 
 O objetivo é ter scripts que facilitem o máximo possível as tarefas de instalação de programas e preparação das máquinas.
