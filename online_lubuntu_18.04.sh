@@ -3,7 +3,7 @@
 	#PARA INSTALAR SOFTWARES DE TERCEIROS COMO O adobe-flashplugin: (ativa o repositório)
 
 apt-add-repository "deb http://archive.canonical.com/ubuntu bionic partner"  #O apelido bionic corresponde ao (l)ubuntu 18.04 apenas
-
+add-apt-repository ppa:webupd8team/java
 	#UPGRADE
 
 apt-get update
@@ -16,15 +16,15 @@ apt-get install -y ntp
 
 	#SOFTWARES BÁSICOS:
 
-apt-get install -y adobe-flashplugin wine-stable icedtea-netx default-jre vlc libreoffice gedit
+apt-get install -y adobe-flashplugin wine-stable icedtea-netx oracle-java8-installer vlc libreoffice gedit
 
-echo 
+echo
 echo '  A seguir, assim que abrir o navegador habilite o flash:'
-echo '    -> Clique em "Shockwave Flash" para expandir o conteúdo.' 
+echo '    -> Clique em "Shockwave Flash" para expandir o conteúdo.'
 echo '    -> Desmarque a opção "Bloquear conteúdo flash perigoso e malicioso".'
 echo '    -> Escolha a opção "Perguntar para ativar".'
 echo '    -> Feche a janela do firefox para continuar o script.'
-echo 
+echo
 firefox about:addons
 
 	#SOFTWARES EDUCACIONAIS:
@@ -42,5 +42,3 @@ wine <HAGA_QUE>
 	#SOFTWARES PARA PROGRAMAÇÃO:
 
 apt-get install -y idle idle3 arduino gedit geany
-
-
