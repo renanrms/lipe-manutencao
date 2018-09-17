@@ -34,7 +34,7 @@ sudo dpkg -a --configure
 
 ### modificar o programa para incluir a distribuição, a versão e a arquitetura do sistema no nome dos arquivos para facilitar a organização. Podemos criar uma função que gera o nome e usá-la da mesma forma no programa que faz a atualização/instalação para escolher de forma automática entre vários arquivos pra sistemas diferentes.
 
-LISTA_DE_PACOTES="ntp adobe-flashplugin wine-stable default-jre icedtea-netx synaptic vlc firefox libreoffice gedit tuxmath tuxpaint tuxtype squeak-vm scratch jclic idle3 arduino vim gedit geany"
+LISTA_DE_PACOTES="ntp adobe-flashplugin wine-stable default-jre icedtea-netx synaptic gparted vlc firefox libreoffice gedit tuxmath tuxpaint tuxtype squeak-vm scratch jclic idle3 arduino vim gedit geany"
 sudo apt-offline set update-upgrade-install.sig --update --upgrade --install-packages $LISTA_DE_PACOTES
 sudo apt-offline get --bundle update-upgrade-install.zip update-upgrade-install.sig
 
